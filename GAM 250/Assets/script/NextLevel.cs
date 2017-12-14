@@ -2,13 +2,15 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
-{
 
-	void OnTriggerEnter2D (Collider2D col)
+{
+	public int index; 
+
+	void OnTriggerEnter (Collider col)
 	{
-		if (col.CompareTag ("Player")) 
+		if (col.tag == "Player") 
 		{
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+			SceneManager.LoadScene (index);
 		}
 	}
 }

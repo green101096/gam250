@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class platformMovement: MonoBehaviour
+public class seperateMovement: MonoBehaviour
 {
 	public Transform[] Waypoint;
 	public float PlatformSpeed = 15f;
@@ -20,6 +20,8 @@ public class platformMovement: MonoBehaviour
 
 			//setting which point to start the platform movement
 		}	
+		//float distanceToWaypoint = Vector3.Distance (transform.position, Waypoint [CurrentLocation].transform.position);
+		//if (distanceToWaypoint<0.2f)
 		if (transform.position == Waypoint [CurrentLocation].transform.position) {
 			CurrentLocation += 1;
 		}

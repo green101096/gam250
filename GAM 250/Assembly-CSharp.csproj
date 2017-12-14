@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{84505C5F-A3D1-F698-B7D3-81021DEA1146}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,10 +49,10 @@
      <Compile Include="Assets\script\Movement.cs" />
      <Compile Include="Assets\script\NextLevel.cs" />
      <Compile Include="Assets\script\camera.cs" />
-     <Compile Include="Assets\script\platformMovement.cs" />
      <Compile Include="Assets\script\quit.cs" />
      <Compile Include="Assets\script\restart.cs" />
      <Compile Include="Assets\script\sceneManagement.cs" />
+     <Compile Include="Assets\script\seperateMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

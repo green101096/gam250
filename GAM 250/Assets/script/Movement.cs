@@ -8,10 +8,14 @@ public class Movement : MonoBehaviour
 	public float ForceOfJump = 50;
 	public float gravity = 10;
 	private Vector3 movingDirection = Vector2.zero;
+	CharacterController CC;
 
+	void Start()
+	{
+		CC = GetComponent<CharacterController> ();
+	}
 	void Update()
 	{
-		CharacterController CC = GetComponent<CharacterController> ();
 
 		if (CC.isGrounded) 
 		{
