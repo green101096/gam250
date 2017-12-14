@@ -3,8 +3,8 @@ using System.Collections;
 
 public class quit : MonoBehaviour
 {
-	public void OnClick()
+	public void OnClick()// this is checking that something has been clicked, once it has this script will activate
 	{
-		Application.Quit();
+		Application.Quit(); // this ends the play seasson
 	}
 }

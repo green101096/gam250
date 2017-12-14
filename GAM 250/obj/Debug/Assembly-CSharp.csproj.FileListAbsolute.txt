@@ -18,3 +18,4 @@ C:\Users\kcmnl\Desktop\university\year 2\GAM 250\trunk\GAM 250\Temp\bin\Debug\Un
 C:\Users\kcmnl\Desktop\university\year 2\GAM 250\trunk\GAM 250\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\kcmnl\Desktop\university\year 2\GAM 250\trunk\GAM 250\obj\Debug\Assembly-CSharp.dll
 C:\Users\kcmnl\Desktop\university\year 2\GAM 250\trunk\GAM 250\obj\Debug\Assembly-CSharp.pdb
+C:\Users\kcmnl\Desktop\university\year 2\GAM 250\trunk\GAM 250\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

@@ -9,7 +9,7 @@ public class seperateMovement: MonoBehaviour
 	public int CurrentLocation = 0;
 	private GameObject Player;
 
-	void Update()
+	void Update() // update calls the function every frame
 	{
 		if (transform.position != Waypoint [CurrentLocation].transform.position) {
 			//movement of the platform towards a location
